@@ -14,8 +14,15 @@
   height: 95vh;
 }
 
-.black {
-  background-color: black;
+@media only screen and (max-width: 600px) {
+  .mainslide {
+    width: 100vw;
+    height: 95vh;
+  }
+}
+
+.white {
+  background-color: beige;
 }
 
 .blue {
