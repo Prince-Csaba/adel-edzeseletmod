@@ -14,7 +14,7 @@
     align-items: center;
 
     .textbox {
-        
+        color: $white;
         background-color: aquamarine;
         display: flex;
         justify-content: center;
@@ -25,12 +25,18 @@
             font-weight: 500;
         }
 
+        .hline {
+            width: 90px;
+            height: 0px;
+            margin: 15px auto;
+            border-bottom: 2px solid $white;
+        }
+
         .textboxText {
             font-weight: 300;
         }
 
         .button {
-            background-color: transparent;
             border-radius: 10em;
             border-color: black;
             background-color: $white;

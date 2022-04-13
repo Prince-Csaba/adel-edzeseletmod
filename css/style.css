@@ -24,6 +24,7 @@
 }
 
 .mainslide .textbox {
+  color: #fff;
   background-color: aquamarine;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -44,12 +45,18 @@
   font-weight: 500;
 }
 
+.mainslide .textbox .hline {
+  width: 90px;
+  height: 0px;
+  margin: 15px auto;
+  border-bottom: 2px solid #fff;
+}
+
 .mainslide .textbox .textboxText {
   font-weight: 300;
 }
 
 .mainslide .textbox .button {
-  background-color: transparent;
   border-radius: 10em;
   border-color: black;
   background-color: #fff;
