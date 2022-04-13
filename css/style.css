@@ -1,0 +1,12 @@
+.alert {
+  border: 1px solid rgba(198, 83, 140, 0.88);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */

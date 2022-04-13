@@ -1,1 +1,8 @@
-@import '/scss/basics'
+@import './basics';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
