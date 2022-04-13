@@ -9,9 +9,41 @@
   padding: 0;
 }
 
+.topnav {
+  padding: 0 36px;
+  height: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.topnav .title {
+  color: #fff;
+}
+
+.topnav .nav .navitem {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0 14px;
+}
+
 .mainslide {
   width: 100vw;
-  height: 95vh;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,7 +57,6 @@
 
 .mainslide .textbox {
   color: #fff;
-  background-color: aquamarine;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,36 +73,40 @@
 }
 
 .mainslide .textbox .textboxTitle {
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 50px;
 }
 
 .mainslide .textbox .hline {
   width: 90px;
   height: 0px;
-  margin: 15px auto;
+  margin: 27px auto;
   border-bottom: 2px solid #fff;
 }
 
 .mainslide .textbox .textboxText {
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.75;
 }
 
 .mainslide .textbox .button {
   border-radius: 10em;
-  border-color: black;
+  border-color: #fff;
   background-color: #fff;
   padding: 13px 31px;
+  margin-top: 36px;
 }
 
 @media only screen and (max-width: 600px) {
   .mainslide {
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
   }
 }
 
 .white {
-  background-color: beige;
+  background-color: pink;
 }
 
 .blue {

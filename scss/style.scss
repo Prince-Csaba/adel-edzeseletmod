@@ -6,41 +6,75 @@
     padding: 0;
 }
 
+.topnav {
+    padding: 0 36px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    color: $white;
+    border-bottom: 1px solid $white;
+
+    .title {
+        color: $white;
+    }
+
+    .nav {
+
+
+        .navitem {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            padding: 0 14px;
+        }
+    }
+
+}
+
 .mainslide {
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .textbox {
         color: $white;
-        background-color: aquamarine;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     
         .textboxTitle {
-            font-weight: 500;
+            font-weight: 800;
+            font-size: 50px;
         }
 
         .hline {
             width: 90px;
             height: 0px;
-            margin: 15px auto;
+            margin: 27px auto;
             border-bottom: 2px solid $white;
         }
 
         .textboxText {
-            font-weight: 300;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.75;
         }
 
         .button {
             border-radius: 10em;
-            border-color: black;
+            border-color: $white;
             background-color: $white;
             padding: 13px 31px;
+            margin-top: 36px;
         }
 
     }
@@ -51,12 +85,12 @@
 @media only screen and (max-width: 600px) {
     .mainslide {
         width: 100vw;
-        height: 95vh;
+        height: 100vh;
     }
 }
 
 .white {
-    background-color: beige;
+    background-color: pink;
 }
 
 .blue {
