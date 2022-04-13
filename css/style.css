@@ -12,6 +12,48 @@
 .mainslide {
   width: 100vw;
   height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainslide .textbox {
+  background-color: aquamarine;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainslide .textbox .textboxTitle {
+  font-weight: 500;
+}
+
+.mainslide .textbox .textboxText {
+  font-weight: 300;
+}
+
+.mainslide .textbox .button {
+  background-color: transparent;
+  border-radius: 10em;
+  border-color: black;
+  background-color: #fff;
+  padding: 13px 31px;
 }
 
 @media only screen and (max-width: 600px) {
