@@ -7,6 +7,18 @@
           box-sizing: border-box;
   margin: 0;
   padding: 0;
-  margin-top: 10px;
+}
+
+.mainslide {
+  width: 100vw;
+  height: 95vh;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
 }
 /*# sourceMappingURL=style.css.map */
