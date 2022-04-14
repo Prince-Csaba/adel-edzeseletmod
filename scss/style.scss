@@ -51,10 +51,12 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 80%;
     
         .textboxTitle {
             font-weight: 800;
             font-size: 50px;
+            text-align: center;
         }
 
         .hline {
@@ -68,6 +70,7 @@
             font-weight: 400;
             font-size: 18px;
             line-height: 1.75;
+            text-align: center;
         }
 
         .button {
@@ -87,6 +90,26 @@
     .mainslide {
         width: 100vw;
         height: 100vh;
+
+        .textbox {
+
+            .textboxTitle {
+                font-size: 32px;
+            }
+    
+/*             .hline {
+                width: 90px;
+                height: 0px;
+                margin: 27px auto;
+                border-bottom: 2px solid $white;
+            } */
+    
+            .textboxText {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 1.75;
+            }
+        }
     }
 }
 
