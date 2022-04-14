@@ -32,7 +32,16 @@
 }
 
 .topnav .title {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.topnav .title h1 {
   color: #fff;
+  margin-bottom: 0;
+  font-size: 2rem;
+  line-height: 1;
 }
 
 .topnav .nav .navitem {

@@ -23,7 +23,14 @@
     border-bottom: 1px solid $white;
 
     .title {
-        color: $white;
+        align-items: center;
+
+        h1 {
+            color: $white;
+            margin-bottom: 0;
+            font-size: 2rem;
+            line-height: 1;
+        }
     }
 
     .nav {
