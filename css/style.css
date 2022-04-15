@@ -44,7 +44,7 @@
   line-height: 1;
 }
 
-.topnav .nav .bigScreen .navitem {
+.topnav .nav .navitem {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -55,13 +55,51 @@
   text-align: center;
 }
 
+.topnav .hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: none;
+  }
+  .hamburger {
+    width: 30px;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .hamburger .h {
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin: 2px 0;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
+
 .movileNav {
-  z-index: 100;
+  z-index: 1;
   width: 0vw;
   height: calc(100vh - 100px);
   background-color: red;
   position: fixed;
   top: 100px;
+}
+
+.navVisible {
+  width: 100vw;
 }
 
 .mainslide {
