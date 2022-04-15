@@ -44,7 +44,7 @@
   line-height: 1;
 }
 
-.topnav .nav .navitem {
+.topnav .nav .bigScreen .navitem {
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.05em;
@@ -53,6 +53,15 @@
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
+}
+
+.movileNav {
+  z-index: 100;
+  width: 0vw;
+  height: calc(100vh - 100px);
+  background-color: red;
+  position: fixed;
+  top: 100px;
 }
 
 .mainslide {
