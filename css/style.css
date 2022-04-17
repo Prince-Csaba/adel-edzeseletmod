@@ -53,6 +53,7 @@
       -ms-grid-row-align: center;
       align-self: center;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .topnav .hamburger {
@@ -87,19 +88,32 @@
     -ms-flex-item-align: end;
         align-self: flex-end;
   }
+  .movileNav .navbarMobile {
+    padding-top: 27px;
+  }
+  .movileNav .navbarMobile .navitem {
+    padding: 9px 36px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
 }
 
 .movileNav {
   z-index: 1;
-  width: 0vw;
+  width: 100vw;
   height: calc(100vh - 100px);
   background-color: red;
   position: fixed;
   top: 100px;
+  display: none;
 }
 
 .navVisible {
-  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .mainslide {

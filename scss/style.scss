@@ -41,6 +41,7 @@
                 padding: 0 14px;
                 align-self: center;
                 text-align: center;
+                text-transform: uppercase;
             }
         
     }
@@ -57,7 +58,6 @@
     }
 
     .hamburger {
-
         width: 30px;
         display: flex !important;
         flex-direction: column;
@@ -73,19 +73,34 @@
             align-self: flex-end;
         }
     }
+
+    .movileNav {
+        .navbarMobile {
+            padding-top: 27px;
+
+            .navitem {
+                padding: 9px 36px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 0.05em;
+                text-transform: uppercase;
+            }
+        }
+    }    
 }
 
 .movileNav {
     z-index: 1;
-    width: 0vw;
+    width: 100vw;
     height: calc(100vh - 100px);
     background-color: red;
     position: fixed;
     top: 100px;
+    display: none
 }
 
 .navVisible {
-    width: 100vw; 
+    display: flex; 
 }
 
 .mainslide {
