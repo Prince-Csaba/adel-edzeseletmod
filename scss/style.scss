@@ -52,6 +52,10 @@
 
 }
 
+.movileNav {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .nav {
         display: none;
@@ -68,12 +72,25 @@
         .h {
             width: 20px;
             height: 3px;
-            background-color: white;
+            background-color: $white;
             margin: 2px 0;
             align-self: flex-end;
         }
     }
 
+    .movileNav {
+        z-index: 1;
+        width: 100vw;
+        height: calc(100vh - 100px);
+        background-color: white;
+        position: fixed;
+        top: 100px;
+        display: none
+    }
+    
+    .navVisible {
+        display: flex; 
+    }
     .movileNav {
         .navbarMobile {
             padding-top: 27px;
@@ -89,19 +106,7 @@
     }    
 }
 
-.movileNav {
-    z-index: 1;
-    width: 100vw;
-    height: calc(100vh - 100px);
-    background-color: red;
-    position: fixed;
-    top: 100px;
-    display: none
-}
 
-.navVisible {
-    display: flex; 
-}
 
 .mainslide {
     width: 100vw;
