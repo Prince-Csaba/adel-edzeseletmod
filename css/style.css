@@ -10,6 +10,12 @@
   font-family: "Rockwell", serif;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .topnav {
   padding: 0 36px;
   height: 100px;
@@ -24,7 +30,8 @@
       -ms-flex-align: center;
           align-items: center;
   background: rgba(0, 0, 0, 0.9);
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 0;
   z-index: 1;
   color: #fff;
@@ -42,6 +49,12 @@
   margin-bottom: 0;
   font-size: 2rem;
   line-height: 1;
+}
+
+.topnav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .topnav .nav .navitem {
@@ -211,7 +224,7 @@
 
 .row {
   width: 100vw;
-  height: 100vh;
+  min-height: 400px;
   background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -226,13 +239,12 @@
 
 .col-6 {
   width: 50%;
-  height: 100%;
   min-width: 450px;
 }
 
 @media only screen and (max-width: 900px) {
   .row {
-    height: 400px;
+    height: 200px;
   }
   .r {
     -webkit-box-orient: vertical;
@@ -246,6 +258,22 @@
   }
 }
 
+.col-4 {
+  width: 33.33%;
+  height: 100%;
+  min-width: 450px;
+}
+
+.centered {
+  height: 600px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .bgwhite {
   background-color: #fff;
 }
@@ -256,5 +284,9 @@
 
 .bgred {
   background-color: red;
+}
+
+.bggrey {
+  background-color: #eaeaea;
 }
 /*# sourceMappingURL=style.css.map */

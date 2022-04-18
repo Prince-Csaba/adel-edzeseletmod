@@ -7,6 +7,10 @@
     font-family: "Rockwell", serif;
 }
 
+.flex {
+    display: flex;
+}
+
 .topnav {
     padding: 0 36px;
     height: 100px;
@@ -16,7 +20,7 @@
     align-items: center;
     background: rgba(0, 0, 0, 0.9);
 
-    position: fixed;
+    position: sticky;
     top: 0;
     z-index: 1;
     color: $white;
@@ -34,6 +38,8 @@
     }
 
     .nav {
+        display: flex;
+
            .navitem {
                 font-size: 12px;
                 font-weight: 600;
@@ -193,7 +199,7 @@
 
 .row {
     width: 100vw;
-    height: 100vh;
+    min-height: 400px;
     background-color: aqua;
     display: flex;
     flex-direction: row;
@@ -201,17 +207,14 @@
     
 }
 
-
-
 .col-6 {
     width: 50%;
-    height: 100%;
     min-width: 450px;
 }
 
 @media only screen and (max-width: 900px) {
     .row {
-        height: 400px;
+        height: 200px;
     }
 
     .r {
@@ -224,6 +227,18 @@
     }
 }
 
+.col-4 {
+    width: 33.33%;
+    height: 100%;
+    min-width: 450px;
+}
+
+.centered {
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
 .bgwhite {
     background-color: $white;
 }
@@ -234,4 +249,8 @@
 
 .bgred {
     background-color: red;
+}
+
+.bggrey {
+    background-color: $grey;
 }
