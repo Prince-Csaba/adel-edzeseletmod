@@ -229,17 +229,22 @@
 }
 
 .sTitle {
-    margin: 72px 20px;
+    margin: 72px 72px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
     h2 {
-        margin: 20px 10px;
+        margin: 10px 10px 70px 10px;
         font-size: 35px;
         text-align: center;
-        font-weight: 400;    
+        font-weight: 400;
+        max-width: 730px;    
+    }
+
+    svg {
+        width: 70px;
     }
 }
 
@@ -266,6 +271,7 @@
 
 .emailForm {
     width: 100%;
+    max-width: 730px;
 }
 
 .emailSub {
