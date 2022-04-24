@@ -51,6 +51,22 @@ button {
   background-color: #f7f7f7;
 }
 
+.flex-centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -387,5 +403,11 @@ button {
   color: #fff;
   background-color: #e154b0;
   border-color: #e154b0;
+}
+
+.hero {
+  background-color: antiquewhite;
+  height: 45.8vw;
+  min-height: 600px;
 }
 /*# sourceMappingURL=style.css.map */
