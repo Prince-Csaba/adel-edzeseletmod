@@ -31,6 +31,26 @@ button {
   text-transform: uppercase;
 }
 
+.bgwhite {
+  background-color: #fff;
+}
+
+.bgblack {
+  background-color: #000;
+}
+
+.bgred {
+  background-color: red;
+}
+
+.bggrey {
+  background-color: #eaeaea;
+}
+
+.bglightGrey {
+  background-color: #f7f7f7;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -96,6 +116,8 @@ button {
       align-self: center;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
 }
 
 .topnav .hamburger {
@@ -254,7 +276,6 @@ button {
 .row {
   width: 100vw;
   min-height: 400px;
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -288,7 +309,7 @@ button {
 }
 
 .sTitle {
-  margin: 72px 72px;
+  padding: 72px 72px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,7 +334,7 @@ button {
 }
 
 .sTitle svg {
-  width: 70px;
+  width: 64px;
 }
 
 .col-4 {
@@ -363,21 +384,8 @@ button {
   padding: 10px 27px 10px 27px;
   margin: 0 0 0 -5px;
   text-align: center;
-}
-
-.bgwhite {
-  background-color: #fff;
-}
-
-.bgblack {
-  background-color: #000;
-}
-
-.bgred {
-  background-color: red;
-}
-
-.bggrey {
-  background-color: #eaeaea;
+  color: #fff;
+  background-color: #e154b0;
+  border-color: #e154b0;
 }
 /*# sourceMappingURL=style.css.map */
