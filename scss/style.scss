@@ -298,3 +298,27 @@
     height: 45.8vw;
     min-height: 600px;
 }
+
+.cardRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    
+    .cards {
+        width: 90%;
+        max-width: 1200px;
+        display: flex;
+        
+        
+        .card {
+            background-color: aqua;
+            border: 1px solid black;
+            width: 33.33%;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

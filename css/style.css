@@ -31,6 +31,10 @@ button {
   text-transform: uppercase;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .bgwhite {
   background-color: #fff;
 }
@@ -409,5 +413,45 @@ button {
   background-color: antiquewhite;
   height: 45.8vw;
   min-height: 600px;
+}
+
+.cardRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+.cardRow .cards {
+  width: 90%;
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cardRow .cards .card {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 33.33%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=style.css.map */
