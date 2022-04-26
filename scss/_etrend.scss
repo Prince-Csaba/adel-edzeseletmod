@@ -9,17 +9,6 @@ Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pric
 [class*="fontawesome-"]:before {
   font-family: 'FontAwesome', sans-serif;
 }
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 /*------ utiltity classes -----*/
 .fl{ float:left; }
 .fr{ float: right; }
@@ -36,7 +25,7 @@ Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pric
     zoom: 1;  /*For IE 6/7 (trigger hasLayout) */
 }
 
-body {
+.body {
     background: #F2F2F2;
     font-family: 'Droid Sans', sans-serif;
     line-height: 1;

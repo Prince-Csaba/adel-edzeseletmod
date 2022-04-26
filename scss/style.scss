@@ -6,7 +6,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    border: 0;
     font-family: "Rockwell", serif;
+    
+    font-size: 100%;
+    vertical-align: baseline;
 }
 
 .flex {
