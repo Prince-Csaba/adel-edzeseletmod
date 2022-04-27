@@ -1,6 +1,5 @@
 @import './basics';
 @import './custom';
-@import './etrend';
 
 * {
     box-sizing: border-box;
@@ -216,7 +215,7 @@
     
 }
 
-.col-6 {
+.sCol-6 {
     width: 50%;
     min-width: 450px;
 }
@@ -230,7 +229,7 @@
         flex-direction: column-reverse;
     }
 
-    .col-6 {
+    .sCol-6 {
         width: 100%;
         min-height: 100px;
     }
