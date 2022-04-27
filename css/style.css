@@ -497,7 +497,7 @@ Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pric
   background-color: blue;
 }
 
-.row {
+.rowL {
   width: 100vw;
   min-height: 400px;
   display: -webkit-box;
@@ -518,7 +518,7 @@ Inspired by the dribble shot http://dribbble.com/shots/1285240-Freebie-Flat-Pric
 }
 
 @media only screen and (max-width: 900px) {
-  .row {
+  .rowL {
     min-height: 200px;
   }
   .r {
