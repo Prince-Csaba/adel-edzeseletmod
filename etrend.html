@@ -21,11 +21,40 @@
 </head>
 
 <body>
+    <nav class="topnav">
+        <div class="title">
+          <h1>SunRise Fitness</h1>
+        </div>
+        <div class="nav">
+            <div class="navitem">Étrend & <br> Táplálkozási tanácsadás</div>
+            <div class="navitem">Személyi edzés</div>
+            <div class="navitem">Edzés videók</div>
+            <div class="navitem">Receptek</div>
+            <a class="navitem" href="./rolam.html">Rólam</a>
+            <div class="navitem">Árak</div>
+        </div>
+        <div class="hamburger" id="movileNav">
+            <div class="h"></div>
+            <div class="h"></div>
+            <div class="h"></div>
+        </div>   
+      </nav>
+  
+      <div class="movileNav" id="mobileNav">
+        <div class="navbarMobile" id="mobileNavBar">
+          <a class="navitem" href="rolam.html">Étrend & <br> Táplálkozási tanácsadás ></a>
+          <div class="navitem">Személyi edzés</div>
+          <div class="navitem">Edzés videók</div>
+          <div class="navitem">Receptek</div>
+          <a class="navitem" href="./rolam.html">Rólam</a>
+          <div class="navitem">Árak</div>
+        </div>
+      </div>
     <div class="hero">
 
     </div>
     <div class="sTitle">
-        <p>
+        <p class="s-18">
             Az általam adott étrend nem szigorú megvonásokon alapuló diétákon alapszik, ahol fogcsikorgatva fogyasztod
             el a heti 10. csirke-rizs-saláta kombódat. Amit tőlem kapsz, az hosszútávon fenntartható, finom, ízletes és
             változatos étkezésekből álló menüsor, amit nagyobb adagban elkészítve a családtagok, barátok is szívesen
@@ -49,10 +78,13 @@
         </div>
     </div>
     <div class="sTitle">
-        A receptjeim egyaránt tartalmaznak húsimádó és csupa zöldséges fogásokat is, amivel garantáltan jól is laksz,
-        így öröm lesz számodra az egészséges életmód kialakítása.
+        <p class="s-18">
+
+            A receptjeim egyaránt tartalmaznak húsimádó és csupa zöldséges fogásokat is, amivel garantáltan jól is laksz,
+            így öröm lesz számodra az egészséges életmód kialakítása.
+        </p>
     </div>
-    <div class="sTitle">
+    <div class="sTitle" style="padding-top:0;">
         <p>logo</p>
         <h2>
             A személyre szabott étrend tervezés a következők figyelembevételével készül:
@@ -150,7 +182,7 @@
             </div>
 
         </div>
-        <div class="row r">
+        <div class="row flex-wrap-reverse">
             <div class="col-md-6 bgwhite">foto rolam vagy etelrol</div>
             <div class="col-md-6 bgwhite p-36 flex-centered">
                 <div>
@@ -175,7 +207,6 @@
             </div>
         </div>
         <div class="row">
-
             <div class="col-md-6 bggrey p-36 flex-centered">
                 <div>
 
@@ -205,7 +236,7 @@
             </div>
 
         </div>
-        <div class="row r">
+        <div class="row flex-wrap-reverse">
             <div class="col-md-6 bgwhite">foto rolam vagy etelrol</div>
             <div class="col-md-6 bgwhite p-36 flex-centered">
                 <div>
@@ -227,6 +258,8 @@
             </div>
         </div>
     </section>
+
+    <!-- Price Table -->
     <section class="body">
         <div class="container">
             <div class="row justify-content-md-center">
@@ -320,19 +353,19 @@
             </div><!-- /row -->
         </div>
     </section>
-    <section class="container">
+    <section class="container-fluid bggrey py-5">
         <div class="row">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center mb-3">
 
-                <button type="button" class="btn btn-light" id="basicB">Alap</button>
+                <button type="button" class="btn btn-light me-2" id="basicB">Alap</button>
                 <button type="button" class="btn btn-light" id="fullB">Premium</button>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 d-none" id="basic">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6 d-block" id="basic">
                 <ul>
                     <li>
-                        Alap Ha úgy érzed, hogy valamit változtatni kellene az életmódodon és étkezési szokásaidon, de az
+                        Ha úgy érzed, hogy valamit változtatni kellene az életmódodon és étkezési szokásaidon, de az
                         interneten található sok-sok információban teljesen elvesztél, hogy mi lenne számodra az igazán
                         megfelelő.
                     </li>
@@ -351,7 +384,7 @@
             <div class="col-md-6 d-none" id="full">
                 <ul>
                     <li>
-                        Full Ha egy rugalmas, változatos étrendre, életmódra vágysz, ami nem méreg drága lisztkeverékeken és
+                        Ha egy rugalmas, változatos étrendre, életmódra vágysz, ami nem méreg drága lisztkeverékeken és
                         csoda bogyókon alapszik.
                     </li>
                     <li>
