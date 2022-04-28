@@ -254,7 +254,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-3">
                     <ul class="pricing p-yel">
                         <li>
-                            <img src="http://bread.pp.ua/n/settings_y.svg" alt="">
+                            <img src="" alt="">
                             <big>Szello</big>
                         </li>
                         <li>Táplálkozási-és életmód tanácsadás</li>
@@ -268,7 +268,7 @@
                             <!-- <span>per month</span> -->
                         </li>
                         <li>
-                            <button>Érdekel</button>
+                            <button id="basicCB">Érdekel</button>
                         </li>
                     </ul>
                 </div>
@@ -276,7 +276,7 @@
                 <div class="col-xs-12 col-sm-12 col-md-3">
                     <ul class="pricing p-red">
                         <li>
-                            <img src="http://bread.pp.ua/n/settings_r.svg" alt="">
+                            <img src="" alt="">
                             <big>Napsugar</big>
                         </li>
                         <li>Személyre szabott étrend</li>
@@ -292,7 +292,7 @@
                         <!-- <span>per month</span> -->
                         </li>
                         <li>
-                            <button>Érdekel</button>
+                            <button id="fullCB">Érdekel</button>
                         </li>
                     </ul>
                 </div>
@@ -324,15 +324,15 @@
         <div class="row">
             <div class="d-flex justify-content-center">
 
-                <button type="button" class="btn btn-light">Alap</button>
-                <button type="button" class="btn btn-light">Premium</button>
+                <button type="button" class="btn btn-light" id="basicB">Alap</button>
+                <button type="button" class="btn btn-light" id="fullB">Premium</button>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 d-none" id="basic">
                 <ul>
                     <li>
-                        Ha úgy érzed, hogy valamit változtatni kellene az életmódodon és étkezési szokásaidon, de az
+                        Alap Ha úgy érzed, hogy valamit változtatni kellene az életmódodon és étkezési szokásaidon, de az
                         interneten található sok-sok információban teljesen elvesztél, hogy mi lenne számodra az igazán
                         megfelelő.
                     </li>
@@ -348,10 +348,10 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 d-none" id="full">
                 <ul>
                     <li>
-                        Ha egy rugalmas, változatos étrendre, életmódra vágysz, ami nem méreg drága lisztkeverékeken és
+                        Full Ha egy rugalmas, változatos étrendre, életmódra vágysz, ami nem méreg drága lisztkeverékeken és
                         csoda bogyókon alapszik.
                     </li>
                     <li>
@@ -378,6 +378,7 @@
     <footer>
         ide jon majd a footer
     </footer>
+    <script src="./scripts/script.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
 
