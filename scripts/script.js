@@ -3,11 +3,15 @@ function pageLoad () {
     let basic = document.getElementById('basic');
     let full = document.getElementById('full');
 
+    document.getElementById("movileNav").addEventListener("click", openNav);
+
     document.getElementById("basicCB").addEventListener("click", showBasic);
     document.getElementById("fullCB").addEventListener("click", showFull);
 
     document.getElementById("basicB").addEventListener("click", showBasic);
     document.getElementById("fullB").addEventListener("click", showFull);
+
+
 
     function openNav() {
         console.log("Hiii");
