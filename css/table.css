@@ -4,9 +4,6 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-  -webkit-backface-visibility: hidden;
-  position: relative;
   padding: 50px 20px;
 }
 

@@ -71,6 +71,10 @@ button {
           justify-content: center;
 }
 
+.s-18 {
+  font-size: 18px;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -195,6 +199,13 @@ button {
   }
   .movileNav .navbarMobile {
     padding-top: 27px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .movileNav .navbarMobile .navitem {
     padding: 9px 36px;
@@ -202,6 +213,8 @@ button {
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
   }
 }
 
@@ -478,5 +491,9 @@ button {
     width: 100%;
     padding: 54px 36px;
   }
+}
+
+.infoVisible {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */

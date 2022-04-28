@@ -107,6 +107,8 @@
     .movileNav {
         .navbarMobile {
             padding-top: 27px;
+            display: flex;
+            flex-direction: column;
 
             .navitem {
                 padding: 9px 36px;
@@ -114,6 +116,8 @@
                 font-weight: 600;
                 letter-spacing: 0.05em;
                 text-transform: uppercase;
+                text-decoration: none;
+                color: $black;
             }
         }
     }    
