@@ -311,7 +311,7 @@ button {
   margin: 0;
 }
 
-.colL-6 {
+.sCol-6 {
   width: 50%;
   min-width: 450px;
 }
@@ -326,7 +326,7 @@ button {
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-  .colL-6 {
+  .sCol-6 {
     width: 100%;
     min-height: 100px;
   }
