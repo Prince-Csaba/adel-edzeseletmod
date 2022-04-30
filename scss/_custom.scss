@@ -2,6 +2,10 @@
     margin: 20px 0;
 }
 
+.m-10 {
+    margin: 10px 0;
+}
+
 .p-36 {
     padding: 36px;
 }
@@ -19,6 +23,12 @@
     display: flex;
     text-align: center;
     line-height: 1.2em;
+    font-size: 12px;
+}
+
+.blackButton {
+    background-color: black;
+    color: white
 }
 
 .uppercase {

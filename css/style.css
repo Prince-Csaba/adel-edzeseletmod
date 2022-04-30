@@ -10,6 +10,10 @@ button {
   margin: 20px 0;
 }
 
+.m-10 {
+  margin: 10px 0;
+}
+
 .p-36 {
   padding: 36px;
 }
@@ -29,6 +33,12 @@ button {
   display: flex;
   text-align: center;
   line-height: 1.2em;
+  font-size: 12px;
+}
+
+.blackButton {
+  background-color: black;
+  color: white;
 }
 
 .uppercase {
@@ -281,6 +291,7 @@ button {
   background-color: #fff;
   padding: 13px 31px;
   margin-top: 36px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -385,14 +396,10 @@ button {
   min-width: 200px;
 }
 
-.helpSlide {
-  height: 45vw;
-  padding: 10px 20px;
-}
-
 @media only screen and (max-width: 600px) {
   .col-4 {
     width: 100vw;
+    height: 60vw;
   }
 }
 
@@ -429,12 +436,42 @@ button {
 .emailSubButton {
   width: 25%;
   border-radius: 0 30px 30px 0;
-  padding: 10px 27px 10px 27px;
+  padding: 13px 27px 13px 27px;
   margin: 0 0 0 -5px;
   text-align: center;
   color: #fff;
   background-color: #e154b0;
   border-color: #e154b0;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .emailForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .emailSub {
+    width: 110%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  .emailSubButton {
+    border-radius: 30px;
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+  }
 }
 
 .hero {
