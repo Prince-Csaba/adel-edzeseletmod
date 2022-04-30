@@ -97,8 +97,9 @@
         height: calc(100vh - 100px);
         background-color: white;
         position: fixed;
+        left: 0px;
         top: 100px;
-        display: none
+        display: none;
     }
     
     .navVisible {
@@ -210,7 +211,7 @@
 
 .rowL {
     width: 100vw;
-    min-height: 400px;
+    min-height: 100px;
     // background-color: aqua;
     display: flex;
     flex-direction: row;
@@ -221,7 +222,7 @@
 
 .sCol-6 {
     width: 50%;
-    min-width: 450px;
+    min-width: 300px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -270,6 +271,13 @@
     padding: 10px 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    .col-4 {
+        width: 100vw;
+    }
+
+}
+
 .hCentered {
     font-weight: 300;
     font-size: 24px;
@@ -304,8 +312,7 @@
 
 .hero {
     background-color: antiquewhite;
-    height: 45.8vw;
-    min-height: 600px;
+    height: 55vh;
 }
 
 .cardRow {
@@ -321,7 +328,6 @@
         
         
         .card {
-
             border: 1px solid black;
             width: 33.33%;
             flex-direction: column;
