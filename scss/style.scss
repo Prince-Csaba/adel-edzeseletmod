@@ -434,3 +434,19 @@
         padding-top: 16px;
     }
 }
+
+.bgimg {
+    height: 80vh;
+    background-position: top;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+
+@media only screen and (max-width: 900px) {
+    .bgimg {
+        height: 40vh;
+    }
+}
