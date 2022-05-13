@@ -211,7 +211,7 @@
 }
 
 .rowL {
-    width: 100vw;
+    width: 100%;
     min-height: 100px;
     // background-color: aqua;
     display: flex;
@@ -437,7 +437,7 @@
 
 .bgimg {
     height: 80vh;
-    background-position: top;
+    background-position: center;
     /* Center the image */
     background-repeat: no-repeat;
     /* Do not repeat the image */
@@ -447,6 +447,6 @@
 
 @media only screen and (max-width: 900px) {
     .bgimg {
-        height: 40vh;
+        // height: 40vh;
     }
 }
