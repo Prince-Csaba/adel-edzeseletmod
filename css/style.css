@@ -608,10 +608,4 @@ button {
   background-size: cover;
   /* Resize the background image to cover the entire container */
 }
-
-@media only screen and (max-width: 900px) {
-  .bgimg {
-    height: 50vh;
-  }
-}
 /*# sourceMappingURL=style.css.map */
