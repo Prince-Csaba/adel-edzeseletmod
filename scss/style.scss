@@ -7,7 +7,7 @@
     padding: 0;
     border: 0;
     font-family: "Rockwell", serif;
-    
+
     font-size: 100%;
     vertical-align: baseline;
 }
@@ -45,18 +45,18 @@
     .nav {
         display: flex;
 
-           .navitem {
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: 0.05em;
-                padding: 0 14px;
-                align-self: center;
-                text-align: center;
-                text-transform: uppercase;
-                text-decoration: none;
-                color: $white;
-            }
-        
+        .navitem {
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            padding: 0 14px;
+            align-self: center;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $white;
+        }
+
     }
 
     .hamburger {
@@ -101,10 +101,11 @@
         top: 100px;
         display: none;
     }
-    
+
     .navVisible {
-        display: flex; 
+        display: flex;
     }
+
     .movileNav {
         .navbarMobile {
             padding-top: 27px;
@@ -121,7 +122,7 @@
                 color: $black;
             }
         }
-    }    
+    }
 }
 
 
@@ -132,46 +133,41 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
-    .textbox {
-        color: $white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 80%;
-    
-        .textboxTitle {
-            font-weight: 800;
-            font-size: 50px;
-            text-align: center;
-        }
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
 
-        .hline {
-            width: 90px;
-            height: 0px;
-            margin: 27px auto;
-            border-bottom: 2px solid $white;
-        }
-
-        .textboxText {
-            font-weight: 400;
-            font-size: 18px;
-            line-height: 1.75;
-            text-align: center;
-        }
-
-        .button {
-            border-radius: 10em;
-            border-color: $white;
-            background-color: $white;
-            padding: 13px 31px;
-            margin-top: 36px;
-            font-size: 12px;
-        }
-
+    .textboxTitle {
+        font-weight: 800;
+        font-size: 50px;
+        text-align: center;
     }
 
+    .hline {
+        width: 90px;
+        height: 0px;
+        margin: 27px auto;
+        border-bottom: 2px solid $white;
+    }
+
+    .textboxText {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.75;
+        text-align: center;
+    }
+
+    .button {
+        border-radius: 10em;
+        padding: 13px 31px;
+        margin-top: 36px;
+        font-size: 12px;
+    }
 
 }
 
@@ -185,14 +181,14 @@
             .textboxTitle {
                 font-size: 32px;
             }
-    
-/*             .hline {
+
+            /*             .hline {
                 width: 90px;
                 height: 0px;
                 margin: 27px auto;
                 border-bottom: 2px solid $white;
             } */
-    
+
             .textboxText {
                 font-weight: 400;
                 font-size: 18px;
@@ -218,7 +214,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0;
-    
 }
 
 .sCol-6 {
@@ -248,12 +243,13 @@
     align-items: center;
     flex-direction: column;
 
-    h2 {
+
+    h1, h2 {
         margin: 10px 10px 70px 10px;
         font-size: 35px;
         text-align: center;
         font-weight: 400;
-        max-width: 730px;    
+        max-width: 730px;
     }
 
     svg {
@@ -340,13 +336,13 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    
+
     .cards {
         width: 90%;
         max-width: 1200px;
         display: flex;
-        
-        
+
+
         .card {
             border: 1px solid black;
             width: 33.33%;
@@ -360,9 +356,9 @@
 
 @media only screen and (max-width: 900px) {
     .cardRow {
-       
+
         .cards {
-                   
+
             .card {
                 padding: 18px;
             }
@@ -372,12 +368,12 @@
 
 @media only screen and (max-width: 600px) {
     .cardRow {
-        
+
         .cards {
             width: 98%;
             display: flex;
             flex-wrap: wrap;
-                      
+
             .card {
                 border: none;
                 width: 100%;
@@ -387,24 +383,24 @@
     }
 }
 
-.infoVisible{
+.infoVisible {
     display: block;
 }
 
 .footerNav {
     display: flex;
 
-       .navitem {
-            font-size: 12px;
-            font-weight: 600;
-            letter-spacing: 0.05em;
-            padding: 0 14px;
-            align-self: center;
-            text-align: center;
-            text-transform: uppercase;
-            text-decoration: none;
-            color: $white;
-        }
+    .navitem {
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        padding: 0 14px;
+        align-self: center;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $white;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -412,12 +408,12 @@
     .footerNav {
         display: flex;
         flex-direction: column;
-    
-           .navitem {
-                font-size: 12px;
-                padding: 5px 36px;
-            }
-    }  
+
+        .navitem {
+            font-size: 12px;
+            padding: 5px 36px;
+        }
+    }
 }
 
 .sFooter {
@@ -447,6 +443,63 @@
 
 @media only screen and (max-width: 900px) {
     .bgimg {
-        // height: 60vh;
+        height: initial;
+    }
+}
+
+.recipeBody {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipeCard {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.recImage {
+    background-color: #e154b0;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.recTitle {
+    margin: 10px 0;
+
+}
+
+.recText {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 150px;
+}
+
+.visibleCard {
+    width: 94%;
+
+    .recImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .recText {
+        width: 90%;
+        overflow: visible;
+        white-space: normal;
+        text-overflow: unset;
     }
 }

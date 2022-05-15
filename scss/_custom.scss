@@ -15,7 +15,11 @@
 }
 
 .textWhite {
-    color: white
+    color: white;
+}
+
+.textBlack {
+    color: black !important;
 }
 
 .rectButton {
@@ -28,7 +32,20 @@
 
 .blackButton {
     background-color: black;
-    color: white
+    border-color: black;
+    color: white;
+}
+
+.blackOButton {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.whiteButton {
+    background-color: white;
+    border-color: black;
+    color: black;
 }
 
 .uppercase {

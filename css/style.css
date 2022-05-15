@@ -26,6 +26,10 @@ button {
   color: white;
 }
 
+.textBlack {
+  color: black !important;
+}
+
 .rectButton {
   padding: 15px 31px 13px 31px;
   display: -webkit-box;
@@ -38,7 +42,20 @@ button {
 
 .blackButton {
   background-color: black;
+  border-color: black;
   color: white;
+}
+
+.blackOButton {
+  background-color: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.whiteButton {
+  background-color: white;
+  border-color: black;
+  color: black;
 }
 
 .uppercase {
@@ -252,8 +269,7 @@ button {
           align-items: center;
 }
 
-.mainslide .textbox {
-  color: #fff;
+.textbox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -270,30 +286,28 @@ button {
   width: 80%;
 }
 
-.mainslide .textbox .textboxTitle {
+.textbox .textboxTitle {
   font-weight: 800;
   font-size: 50px;
   text-align: center;
 }
 
-.mainslide .textbox .hline {
+.textbox .hline {
   width: 90px;
   height: 0px;
   margin: 27px auto;
   border-bottom: 2px solid #fff;
 }
 
-.mainslide .textbox .textboxText {
+.textbox .textboxText {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.75;
   text-align: center;
 }
 
-.mainslide .textbox .button {
+.textbox .button {
   border-radius: 10em;
-  border-color: #fff;
-  background-color: #fff;
   padding: 13px 31px;
   margin-top: 36px;
   font-size: 12px;
@@ -383,7 +397,7 @@ button {
           flex-direction: column;
 }
 
-.sTitle h2 {
+.sTitle h1, .sTitle h2 {
   margin: 10px 10px 70px 10px;
   font-size: 35px;
   text-align: center;
@@ -607,5 +621,83 @@ button {
   /* Do not repeat the image */
   background-size: cover;
   /* Resize the background image to cover the entire container */
+}
+
+@media only screen and (max-width: 900px) {
+  .bgimg {
+    height: initial;
+  }
+}
+
+.recipeBody {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recipeCard {
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  width: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recImage {
+  background-color: #e154b0;
+  width: 90%;
+  margin: 10px 0;
+}
+
+.recTitle {
+  margin: 10px 0;
+}
+
+.recText {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 150px;
+}
+
+.visibleCard {
+  width: 94%;
+}
+
+.visibleCard .recImage {
+  width: 250px;
+  height: 250px;
+}
+
+.visibleCard .recText {
+  width: 90%;
+  overflow: visible;
+  white-space: normal;
+  text-overflow: unset;
 }
 /*# sourceMappingURL=style.css.map */
