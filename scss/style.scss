@@ -503,3 +503,39 @@
         text-overflow: unset;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .recipeCard {
+        margin: 10px 0;
+        padding: 10px;
+        width: 100%;
+
+        flex-wrap: wrap;
+
+    }
+
+    .recImage {
+        background-color: #e154b0;
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .recTitle {
+        margin: 10px 0;
+    
+    }
+
+    .recText {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 150px;
+    }
+
+    .visibleCard {    
+        .recImage {
+            width: 80%;
+            height: 150px;
+        }
+    }
+}
