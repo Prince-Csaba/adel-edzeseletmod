@@ -376,7 +376,7 @@ button {
   }
   .sCol-6 {
     width: 100%;
-    min-height: 100px;
+    min-height: 700px;
   }
 }
 
@@ -670,12 +670,28 @@ button {
 
 .recImage {
   background-color: #e154b0;
-  width: 90%;
   margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.recImage img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .recTitle {
   margin: 10px 0;
+  text-align: center;
 }
 
 .recText {
@@ -685,11 +701,16 @@ button {
   width: 150px;
 }
 
-.visibleCard {
-  width: 94%;
+.recDet {
+  display: none;
 }
 
-.visibleCard .recImage {
+.visibleCard {
+  width: 94%;
+  padding: 20px;
+}
+
+.visibleCard .recImage img {
   width: 250px;
   height: 250px;
 }
@@ -699,6 +720,15 @@ button {
   overflow: visible;
   white-space: normal;
   text-overflow: unset;
+}
+
+.visibleCard .recDet {
+  width: 90%;
+  display: block;
+}
+
+.visibleCard .recDet > * {
+  padding: 5px 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -711,7 +741,7 @@ button {
   }
   .recImage {
     background-color: #e154b0;
-    width: 80%;
+    max-width: 80%;
     margin: 10px 0;
   }
   .recTitle {
@@ -724,8 +754,19 @@ button {
     width: 150px;
   }
   .visibleCard .recImage {
-    width: 80%;
-    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .visibleCard .recImage img {
+    max-width: 80%;
+    max-height: 150px;
   }
 }
 /*# sourceMappingURL=style.css.map */
