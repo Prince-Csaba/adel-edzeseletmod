@@ -26,6 +26,11 @@ button {
   padding: 72px 36px;
 }
 
+.whitespace {
+  background-color: #fff;
+  padding: 36px;
+}
+
 .textWhite {
   color: white;
 }
@@ -411,6 +416,22 @@ button {
 
 .sTitle svg {
   width: 64px;
+}
+
+.imgRow {
+  height: 150px;
+}
+
+.myimg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .img3, .img4 {
+    display: none;
+  }
 }
 
 .col-4 {

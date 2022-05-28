@@ -257,6 +257,22 @@
     }
 }
 
+.imgRow {
+    height: 150px;
+}
+
+.myimg {
+    width: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+    .img3, .img4 {
+        display: none;
+    }
+
+}
+
 .col-4 {
     width: 33.33%;
     height: 45vw;
