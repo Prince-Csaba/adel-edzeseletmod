@@ -1,0 +1,94 @@
+.mainslide {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+
+  .textboxTitle {
+      font-weight: 800;
+      font-size: 50px;
+      text-align: center;
+  }
+
+  .hline {
+      width: 90px;
+      height: 0px;
+      margin: 27px auto;
+      border-bottom: 2px solid $white;
+  }
+
+  .textboxText {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.75;
+      text-align: center;
+  }
+
+  .button {
+      border-radius: 10em;
+      padding: 13px 31px;
+      margin-top: 36px;
+      font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .mainslide {
+      width: 100vw;
+      height: 100vh;
+
+      .textbox {
+
+          .textboxTitle {
+              font-size: 32px;
+          }
+
+          /*             .hline {
+              width: 90px;
+              height: 0px;
+              margin: 27px auto;
+              border-bottom: 2px solid $white;
+          } */
+
+          .textboxText {
+              font-weight: 400;
+              font-size: 18px;
+              line-height: 1.75;
+          }
+      }
+  }
+}
+
+.white {
+  background-color: pink;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.bgimg {
+  height: 90vh;
+  background-position: top;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+@media only screen and (max-width: 900px) {
+  .bgimg {
+      height: initial;
+  }
+}

@@ -1,0 +1,108 @@
+.topnav {
+  padding: 0 36px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  color: $white;
+  border-bottom: 1px solid $white;
+
+  .title {
+      align-items: center;
+
+      h1 {
+          color: $white;
+          margin-bottom: 0;
+          font-size: 2rem;
+          line-height: 1;
+      }
+  }
+
+  .nav {
+      display: flex;
+
+      .navitem {
+          font-size: 12px;
+          font-weight: 600;
+          letter-spacing: 0.05em;
+          padding: 0 14px;
+          align-self: center;
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          color: $white;
+      }
+
+  }
+
+  .hamburger {
+      display: none;
+  }
+
+}
+
+.movileNav {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav {
+      display: none !important;
+  }
+
+  .hamburger {
+      width: 30px;
+      display: flex !important;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+
+      .h {
+          width: 20px;
+          height: 3px;
+          background-color: $white;
+          margin: 2px 0;
+          align-self: flex-end;
+      }
+  }
+
+  .movileNav {
+      z-index: 1;
+      width: 100vw;
+      height: calc(100vh - 100px);
+      background-color: white;
+      position: fixed;
+      left: 0px;
+      top: 100px;
+      display: none;
+  }
+
+  .navVisible {
+      display: flex;
+  }
+
+  .movileNav {
+      .navbarMobile {
+          padding-top: 27px;
+          display: flex;
+          flex-direction: column;
+
+          .navitem {
+              padding: 9px 36px;
+              font-size: 12px;
+              font-weight: 600;
+              letter-spacing: 0.05em;
+              text-transform: uppercase;
+              text-decoration: none;
+              color: $black;
+          }
+      }
+  }
+}
