@@ -15,7 +15,7 @@ button {
 }
 
 .mb-0 {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 
 .p-36 {
@@ -24,6 +24,10 @@ button {
 
 .p-72 {
   padding: 72px 36px;
+}
+
+.pb-0 {
+  padding-bottom: 0;
 }
 
 .flex {
@@ -61,7 +65,7 @@ button {
   color: white;
 }
 
-.blackOButton {
+.blackButton {
   background-color: white;
   border: 2px solid black;
   color: black;
@@ -70,6 +74,12 @@ button {
 .whiteButton {
   background-color: white;
   border-color: black;
+  color: black;
+}
+
+.orangeButton {
+  background-color: #ffa101;
+  border: 2px solid #ffa101;
   color: black;
 }
 
@@ -94,11 +104,11 @@ button {
 }
 
 .bggrey {
-  background-color: #eaeaea;
+  background-color: #fae6b1;
 }
 
 .bglightGrey {
-  background-color: #f7f7f7;
+  background-color: #ffffe3;
 }
 
 .flex-centered {
@@ -442,7 +452,7 @@ button {
 
 .col-4 {
   width: 33.33%;
-  height: 45vw;
+  height: 25vw;
   min-width: 200px;
 }
 
