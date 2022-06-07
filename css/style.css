@@ -814,7 +814,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
+  color: black;
 }
 
 @media only screen and (max-width: 900px) {
