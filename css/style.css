@@ -139,7 +139,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fae6b1;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -178,7 +178,7 @@ button {
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  color: #fff;
+  color: #000;
 }
 
 .topnav .hamburger {
@@ -216,12 +216,13 @@ button {
     margin: 2px 0;
     -ms-flex-item-align: end;
         align-self: flex-end;
+    background-color: #000;
   }
   .movileNav {
     z-index: 1;
     width: 100vw;
     height: calc(100vh - 100px);
-    background-color: white;
+    background-color: #b3dee5;
     position: fixed;
     left: 0px;
     top: 100px;
