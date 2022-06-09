@@ -43,6 +43,19 @@
     color: black !important;
 }
 
+.textOrange {
+    color: $orange;
+}
+
+.sidetext {
+    font-size: 18px;
+    line-height: 1.75;
+
+    p {
+        margin: 5px 0;
+    }
+}
+
 .rectButton {
     padding: 15px 31px 13px 31px;
     display: flex;
