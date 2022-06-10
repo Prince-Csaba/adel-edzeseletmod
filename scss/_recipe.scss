@@ -1,5 +1,6 @@
 .recipeBody {
-  border: 1px solid black;
+  border: 3px solid $orange;
+  border-radius: 15px;
   margin: 20px;
   padding: 20px;
   display: flex;
@@ -9,7 +10,8 @@
 }
 
 .recipeCard {
-  border: 1px solid black;
+  border: 3px solid $yellow;
+  border-radius: 15px;
   margin: 20px;
   padding: 20px;
   width: 29%;

@@ -633,7 +633,8 @@ button {
 }
 
 .recipeBody {
-  border: 1px solid black;
+  border: 3px solid #ffa101;
+  border-radius: 15px;
   margin: 20px;
   padding: 20px;
   display: -webkit-box;
@@ -650,7 +651,8 @@ button {
 }
 
 .recipeCard {
-  border: 1px solid black;
+  border: 3px solid #fae6b1;
+  border-radius: 15px;
   margin: 20px;
   padding: 20px;
   width: 29%;
