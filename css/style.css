@@ -887,6 +887,10 @@ button {
   vertical-align: baseline;
 }
 
+p, strong {
+  text-align: justify;
+}
+
 .socialLinks {
   display: -webkit-box;
   display: -ms-flexbox;

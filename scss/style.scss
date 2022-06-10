@@ -20,6 +20,10 @@
     vertical-align: baseline;
 }
 
+p, strong {
+   text-align: justify; 
+}
+
 .socialLinks {
     display: flex;
     justify-content: center;
