@@ -117,13 +117,14 @@
     background-color: red;
 }
 
-.bggrey {
+.bggrey, .bgYellow {
     background-color: $yellow;
 }
 
-.bglightGrey {
+.bglightGrey, .bgYellowL  {
     background-color: $yellow-l;
 }
+
 
 .flex-centered {
     display: flex;

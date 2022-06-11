@@ -128,11 +128,11 @@ button {
   background-color: red;
 }
 
-.bggrey {
+.bggrey, .bgYellow {
   background-color: #fae6b1;
 }
 
-.bglightGrey {
+.bglightGrey, .bgYellowL {
   background-color: #ffffe3;
 }
 
