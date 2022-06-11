@@ -481,10 +481,16 @@ button {
   min-width: 200px;
 }
 
+@media only screen and (max-width: 900px) {
+  .col-4 {
+    min-height: 300px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .col-4 {
     width: 100vw;
-    height: 60vw;
+    height: 40vw;
   }
 }
 
@@ -518,35 +524,6 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-}
-
-@media only screen and (max-width: 600px) {
-  .emailForm {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .emailSub {
-    width: 110%;
-    border-radius: 30px;
-    margin-bottom: 20px;
-  }
-  .emailSubButton {
-    border-radius: 30px;
-    text-align: center;
-    color: #fff;
-    min-width: 150px;
-  }
 }
 
 .hero {
@@ -593,8 +570,18 @@ button {
 }
 
 @media only screen and (max-width: 900px) {
+  .cardRow .cards {
+    width: 98%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
   .cardRow .cards .card {
-    padding: 18px;
+    border: none;
+    width: 100%;
+    padding: 54px 36px;
   }
 }
 

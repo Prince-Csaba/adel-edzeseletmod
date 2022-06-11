@@ -72,10 +72,16 @@
   min-width: 200px;
 }
 
+@media only screen and (max-width: 900px) {
+  .col-4 {
+    min-height: 300px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .col-4 {
       width: 100vw;
-      height: 60vw;
+      height: 40vw;
   }
 
 }
@@ -97,28 +103,6 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .emailForm {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .emailSub {
-      width: 110%;
-      border-radius: 30px;
-      margin-bottom: 20px;
-  }
-
-  .emailSubButton {
-      border-radius: 30px;
-      text-align: center;
-      color: $white;
-      min-width: 150px;
-  }
-}
-
 .hero {
   background-color: antiquewhite;
   height: 55vh;
@@ -135,7 +119,6 @@
       max-width: 1200px;
       display: flex;
 
-
       .card {
           border: 1px solid black;
           width: 33.33%;
@@ -147,13 +130,19 @@
   }
 }
 
+
 @media only screen and (max-width: 900px) {
   .cardRow {
 
       .cards {
+          width: 98%;
+          display: flex;
+          flex-wrap: wrap;
 
           .card {
-              padding: 18px;
+              border: none;
+              width: 100%;
+              padding: 54px 36px;
           }
       }
   }
