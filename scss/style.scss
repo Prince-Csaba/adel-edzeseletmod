@@ -2,7 +2,7 @@
 @import './custom';
 @import './nav';
 @import './index';
-@import './etrend';
+@import './etrend+rolam';
 @import './edzes';
 // @import './videok';            
 @import './recipe';
@@ -18,10 +18,6 @@
 
     font-size: 100%;
     vertical-align: baseline;
-}
-
-p, strong {
-   text-align: justify; 
 }
 
 .socialLinks {

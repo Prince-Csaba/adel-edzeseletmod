@@ -57,6 +57,14 @@ button {
   color: #c67200;
 }
 
+.tCenter {
+  text-align: center;
+}
+
+.tJustify {
+  text-align: justify;
+}
+
 .sidetext {
   font-size: 18px;
   line-height: 1.75;
@@ -490,6 +498,7 @@ button {
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  text-align: justify;
 }
 
 .hCentered {
@@ -509,29 +518,6 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
-}
-
-.emailForm {
-  width: 100%;
-  max-width: 730px;
-}
-
-.emailSub {
-  width: 75%;
-  padding: 10px 27px;
-  border-radius: 30px 0 0 30px;
-}
-
-.emailSubButton {
-  width: 25%;
-  border-radius: 0 30px 30px 0;
-  padding: 13px 27px 13px 27px;
-  margin: 0 0 0 -5px;
-  text-align: center;
-  color: #fff;
-  background-color: #e154b0;
-  border-color: #e154b0;
-  font-size: 12px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -887,10 +873,6 @@ button {
   font-family: "Rockwell", serif;
   font-size: 100%;
   vertical-align: baseline;
-}
-
-p, strong {
-  text-align: justify;
 }
 
 .socialLinks {
