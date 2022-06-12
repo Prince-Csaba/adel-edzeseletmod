@@ -380,7 +380,7 @@ button {
 
 .bgimg {
   height: 90vh;
-  background-position: top;
+  background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
   /* Do not repeat the image */
@@ -528,7 +528,8 @@ button {
 
 .hero {
   background-color: antiquewhite;
-  height: 55vh;
+  height: 85vh;
+  text-shadow: 1px 1px white;
 }
 
 .cardRow {
@@ -553,7 +554,7 @@ button {
 }
 
 .cardRow .cards .card {
-  border: 1px solid black;
+  border: 3px solid #ffa101;
   width: 33.33%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
