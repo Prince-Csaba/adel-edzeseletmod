@@ -378,22 +378,6 @@ button {
   background-color: blue;
 }
 
-.bgimg {
-  height: 90vh;
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
-}
-
-@media only screen and (max-width: 900px) {
-  .bgimg {
-    height: initial;
-  }
-}
-
 .rowL {
   width: 100%;
   min-height: 100px;
@@ -528,7 +512,6 @@ button {
 
 .hero {
   background-color: antiquewhite;
-  height: 85vh;
   text-shadow: 1px 1px white;
 }
 
@@ -865,6 +848,34 @@ button {
 
 a {
   text-decoration: none;
+}
+
+.bgimgw {
+  width: 100vw;
+  height: 75vw;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+.bgimgh {
+  height: 80vw;
+  width: 50vw;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
+
+@media only screen and (max-width: 900px) {
+  .bgimg {
+    height: 70vw;
+  }
 }
 
 .socialLinks {

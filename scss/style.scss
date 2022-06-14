@@ -2,11 +2,9 @@
 @import './custom';
 @import './nav';
 @import './index';
-@import './etrend+rolam';
-@import './edzes';
+@import './etrend+rolam+edzes';
 // @import './videok';            
 @import './recipe';
-@import './rolam';
 @import './footer';
 
 * {
@@ -23,6 +21,34 @@
 a {
     text-decoration: none;
 }
+
+.bgimgw {
+    width: 100vw;
+    height: 75vw;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+  }
+
+.bgimgh {
+    height: 80vw;
+    width: 50vw;
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+}
+  
+  @media only screen and (max-width: 900px) {
+    .bgimg {
+      height: 70vw;
+    }
+  }
 
 .socialLinks {
     display: flex;
