@@ -863,6 +863,7 @@ a {
 
 .bgimgh {
   height: 80vw;
+  max-height: 1200px;
   width: 50vw;
   background-position: center;
   /* Center the image */
@@ -873,8 +874,18 @@ a {
 }
 
 @media only screen and (max-width: 900px) {
-  .bgimg {
-    height: 70vw;
+  .bgimgh {
+    width: 100vw;
+    height: 120vw;
+    background-position: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bgimgh {
+    width: 100vw;
+    height: 100vw;
+    background-position: center;
   }
 }
 
