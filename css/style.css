@@ -460,6 +460,7 @@ button {
 }
 
 .col-4 {
+  border: 3px solid #ffa101;
   width: 33.33%;
   height: 25vw;
   min-width: 200px;
@@ -564,7 +565,6 @@ button {
         flex-wrap: wrap;
   }
   .cardRow .cards .card {
-    border: none;
     width: 100%;
     padding: 54px 36px;
   }
@@ -580,7 +580,6 @@ button {
         flex-wrap: wrap;
   }
   .cardRow .cards .card {
-    border: none;
     width: 100%;
     padding: 54px 36px;
   }
@@ -633,7 +632,6 @@ button {
 }
 
 .recImage {
-  background-color: #e154b0;
   margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -865,7 +863,7 @@ a {
 .bgimgh {
   height: 80vw;
   max-height: 1200px;
-  width: 50vw;
+  /* width: 100%; */
   background-position: center;
   /* Center the image */
   background-repeat: no-repeat;
