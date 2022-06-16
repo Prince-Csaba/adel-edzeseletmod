@@ -1,3 +1,8 @@
+- img carousel a kepeknek
+- a ,,miért jó szem.edzővel edzeni, szem.edzés menete, és  gerincfúkuszos edzés legyen jóval nagyobb betűméret, és a gerincfókuszos edzést cseréljük le ,,Core training-törzs és gerinc erősítés, mobilizálás” szövegre.
+- a ,,páros gerincfókuszos edzés” szöveget emeljük ki vastagon, hogy jobban kitűnjön a többi szövegből!
+- az alsó instás, üzenj nekem szöveg nagyon jó, néhány javítás: ,,dobj egy e-mailt helyett ÍRJ egy emailt :), ,,ha PEDIG egy kis…..AKKOR kövess be….
+
 - etrend betumeretek a sima kis szovegeknel
 - vertical images on mobile
 - privat studio reklam: Mondjuk gondolom a személyi edzés menüpont végén, ahol majd a térkepet is betennénk. Oda mindjárt írok még egy szöveget, és majd ott mint az étrendnél, ahol egymás után van kb 4 kép egy sorban, úgy kellene szerintem megjeleníteni a teremről is képeket, de ugy, hogy rákkattintva kinagyítsa nagyban

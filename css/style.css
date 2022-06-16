@@ -619,6 +619,15 @@ button {
           justify-content: center;
 }
 
+.carouseldiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .recipeBody {
   border: 3px solid #ffa101;
   border-radius: 15px;
