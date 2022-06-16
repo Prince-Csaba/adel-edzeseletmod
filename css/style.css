@@ -61,12 +61,20 @@ button {
   padding: 36px;
 }
 
+.textBold {
+  font-weight: 600;
+}
+
+.textItalic {
+  font-style: italic;
+}
+
 .textRespL {
   font-size: 4vw;
 }
 
-.textWhite {
-  color: white;
+.pBig {
+  font-size: 20px;
 }
 
 .textBlack {
@@ -102,6 +110,7 @@ button {
   text-align: center;
   line-height: 1.2em;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .blackButton {
