@@ -10,6 +10,22 @@
     margin-top: 30px;
 }
 
+.mt-20R {
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+    .mt-20R {
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mt-20R {
+        margin-top: -30px;
+    }
+}
+
 .mb-0 {
     margin-bottom: 0 !important;
 }
@@ -33,6 +49,10 @@
 .whitespace {
     background-color: $white;
     padding: 36px;
+}
+
+.textRespL {
+    font-size: 4vw;
 }
 
 .textWhite {

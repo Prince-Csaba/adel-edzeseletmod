@@ -18,6 +18,22 @@ button {
   margin-top: 30px;
 }
 
+.mt-20R {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .mt-20R {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mt-20R {
+    margin-top: -30px;
+  }
+}
+
 .mb-0 {
   margin-bottom: 0 !important;
 }
@@ -43,6 +59,10 @@ button {
 .whitespace {
   background-color: #fff;
   padding: 36px;
+}
+
+.textRespL {
+  font-size: 4vw;
 }
 
 .textWhite {
@@ -513,7 +533,8 @@ button {
 
 .hero {
   background-color: antiquewhite;
-  text-shadow: 1px 1px white;
+  text-shadow: 1px 1px black;
+  color: #ffa101;
 }
 
 .cardRow {
