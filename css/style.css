@@ -626,6 +626,17 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100vw;
+}
+
+.carouselsize {
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .carouselsize {
+    width: 90%;
+  }
 }
 
 .recipeBody {
