@@ -1,14 +1,14 @@
-
-- privat terem kiemelni az elonyoknel (stilus)
-
 - etrend betumeretek a sima kis szovegeknel
 
 - edzeshez felul kepek
 
-- vertical images on mobile
+- kaja felul kepek
+
+- vertical images on mobile (mainslide)
 
 - reszponzivitas atnezni
 
+<!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - tarhely -->
 <!-- - receltek lefele nyil cserelni (emoji) -->
 <!-- - etrend tablazat? -->

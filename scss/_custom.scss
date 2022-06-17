@@ -64,6 +64,16 @@
     font-size: 4vw;
 }
 
+.ctaText {
+    font-size: 30px !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .ctaText {
+        font-size: 22px !important;
+    }
+}
+
 .pBig {
     font-size: 20px;
 }
