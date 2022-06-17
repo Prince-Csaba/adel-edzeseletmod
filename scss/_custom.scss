@@ -61,7 +61,13 @@
 }
 
 .textRespL {
-    font-size: 4vw;
+    font-size: 4vw !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .textRespL {
+        font-size: 30px !important;
+    }
 }
 
 .ctaText {
@@ -180,6 +186,14 @@
 .sContainerXL {
     max-width: 1280px;
     margin: auto;
+}
+
+.op {
+    opacity: .2;
+}
+
+.op1 {
+    opacity: 1;
 }
 
 
