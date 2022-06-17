@@ -1,4 +1,10 @@
+- erdekel gomb, id, lekuldeni
+
+- fooldal kepek elhalvanyitani
+
 - etrend betumeretek a sima kis szovegeknel
+
+- etrend felso szovegek nagy, narancssarga
 
 - edzeshez felul kepek
 
@@ -7,6 +13,10 @@
 - vertical images on mobile (mainslide)
 
 - reszponzivitas atnezni
+
+### Utolso simitasok:
+
+Rolam fo kepe
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - tarhely -->
