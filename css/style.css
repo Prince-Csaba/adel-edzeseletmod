@@ -690,6 +690,11 @@ button {
           align-items: center;
 }
 
+.recipeCard button {
+  color: #ffa101;
+  background-color: white;
+}
+
 .recImage {
   margin: 10px 0;
   display: -webkit-box;
