@@ -1,4 +1,4 @@
-- tarhely
+
 - privat terem kiemelni az elonyoknel (stilus)
 
 - etrend betumeretek a sima kis szovegeknel
@@ -9,6 +9,7 @@
 
 - reszponzivitas atnezni
 
+<!-- - tarhely -->
 <!-- - receltek lefele nyil cserelni (emoji) -->
 <!-- - etrend tablazat? -->
 <!-- - privat studio reklam: Mondjuk gondolom a személyi edzés menüpont végén, ahol majd a térkepet is betennénk. Oda mindjárt írok még egy szöveget, és majd ott mint az étrendnél, ahol egymás után van kb 4 kép egy sorban, úgy kellene szerintem megjeleníteni a teremről is képeket, de ugy, hogy rákkattintva kinagyítsa nagyban -->
@@ -23,5 +24,5 @@
 <!-- - minden kartya kapjon narancs keretet -->
 <!-- - cards egy sorba a tobbivel
 <!-- - resolve the font awesome issue -->
-// - menuk javitani -->
+<!-- - menuk javitani -->
 [//]: <comment>
