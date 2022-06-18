@@ -1,28 +1,24 @@
-- erdekel gomb, id, lekuldeni
+- text info vagy text idk what kiemelni, reszponzivva tenni
 
 - fooldal kepek elhalvanyitani
-
-- etrend betumeretek a sima kis szovegeknel
-
-- etrend felso szovegek nagy, narancssarga
-
-- vertical images on mobile (mainslide)
-
-- reszponzivitas atnezni
 
 ### Utolso simitasok:
 
 BS felulirja a cimsor betumeretet 
 
-Rolam fo kepe
+- vertical images on mobile (mainslide)
+
+- reszponzivitas atnezni
+
+- Rolam fo kepe
 
 - képek/all
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - edzeshez felul kepek
-
-
-
+- erdekel gomb, id, lekuldeni
+- etrend felso szovegek nagy, narancssarga
+- etrend betumeretek a sima kis szovegeknel
 - kaja felul kepek -->
 <!-- - tarhely -->
 <!-- - receltek lefele nyil cserelni (emoji) -->

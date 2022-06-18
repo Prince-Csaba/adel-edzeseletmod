@@ -73,6 +73,22 @@ button {
   font-size: 4vw !important;
 }
 
+.textInfo {
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .textInfo {
+    font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .textInfo {
+    font-size: 18px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .textRespL {
     font-size: 30px !important;
