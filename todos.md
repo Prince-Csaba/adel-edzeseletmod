@@ -1,18 +1,10 @@
-- fooldal kepek elhalvanyitani
-
 - kepek mellett a szovegek rolam
 
 ### Utolso simitasok:
 
-- etrend fo kepe
-
 - fa ikonok az edzes cardshoz
 
 BS felulirja a cimsor betumeretet 
-
-- terkep reszp
-
-- vertical images on mobile (mainslide)
 
 - reszponzivitas atnezni
 
@@ -22,6 +14,10 @@ BS felulirja a cimsor betumeretet
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - edzeshez felul kepek
+- etrend fo kepe
+- vertical images on mobile (mainslide)
+- terkep reszp
+- fooldal kepek elhalvanyitani
 - text info vagy text idk what kiemelni, reszponzivva tenni
 - erdekel gomb, id, lekuldeni
 - etrend felso szovegek nagy, narancssarga
