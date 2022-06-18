@@ -1,9 +1,12 @@
-.mainslide {
-  width: 100vw;
-  height: 100vh;
+.slide {
+}
+
+.mainText {
+}
+
+.mainWrap {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .textbox {
@@ -14,65 +17,80 @@
   width: 80%;
 
   .textboxTitle {
-      font-weight: 800;
-      font-size: 50px;
-      text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
   }
 
   .hline {
-      width: 90px;
-      height: 0px;
-      margin: 27px auto;
-      border-bottom: 2px solid $white;
+    width: 90px;
+    height: 0px;
+    margin: 27px auto;
+    border-bottom: 2px solid $white;
   }
 
   .textboxText {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 1.75;
-      text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.75;
+    text-align: center;
   }
 
   .button {
-      border-radius: 10em;
-      padding: 13px 31px;
-      margin-top: 36px;
-      font-size: 12px;
+    border-radius: 10em;
+    padding: 13px 31px;
+    margin-top: 36px;
+    font-size: 12px;
   }
+}
 
+.mainslide {
+  width: 100vw;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
-  .mainslide {
-      width: 100vw;
-      height: 100vh;
+  .textbox {
+    .textboxTitle {
+      font-size: 32px;
+    }
 
-      .textbox {
-
-          .textboxTitle {
-              font-size: 32px;
-          }
-
-          /*             .hline {
-              width: 90px;
-              height: 0px;
-              margin: 27px auto;
-              border-bottom: 2px solid $white;
-          } */
-
-          .textboxText {
-              font-weight: 400;
-              font-size: 18px;
-              line-height: 1.75;
-          }
-      }
+    .textboxText {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 1.75;
+    }
   }
 }
 
-.white {
-  background-color: pink;
+.bg {
+  background-image: url(https://picsum.photos/600/600/?random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  filter: contrast(0.7) brightness(0.7);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
-.blue {
-  background-color: blue;
+.content {
+  align-items: center;
+  bottom: 0;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: center;
+  left: 0;
+  padding: 20vw;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+.h1 {
+  font-weight: normal;
 }

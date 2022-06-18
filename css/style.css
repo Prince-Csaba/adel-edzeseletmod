@@ -232,12 +232,8 @@ button {
   margin: auto;
 }
 
-.op {
-  opacity: .2;
-}
-
-.op1 {
-  opacity: 1;
+.bgfix {
+  background-attachment: fixed;
 }
 
 .topnav {
@@ -368,18 +364,13 @@ button {
   }
 }
 
-.mainslide {
-  width: 100vw;
-  height: 100vh;
+.mainWrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .textbox {
@@ -426,35 +417,60 @@ button {
   font-size: 12px;
 }
 
+.mainslide {
+  width: 100vw;
+  height: 100vh;
+}
+
 @media only screen and (max-width: 600px) {
-  .mainslide {
-    width: 100vw;
-    height: 100vh;
-  }
-  .mainslide .textbox {
-    /*             .hline {
-              width: 90px;
-              height: 0px;
-              margin: 27px auto;
-              border-bottom: 2px solid $white;
-          } */
-  }
-  .mainslide .textbox .textboxTitle {
+  .textbox .textboxTitle {
     font-size: 32px;
   }
-  .mainslide .textbox .textboxText {
+  .textbox .textboxText {
     font-weight: 400;
     font-size: 18px;
     line-height: 1.75;
   }
 }
 
-.white {
-  background-color: pink;
+.bg {
+  background-image: url(https://picsum.photos/600/600/?random);
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  -webkit-filter: contrast(0.7) brightness(0.7);
+          filter: contrast(0.7) brightness(0.7);
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
 
-.blue {
-  background-color: blue;
+.content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  bottom: 0;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-family: sans-serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  left: 0;
+  padding: 20vw;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  top: 0;
+}
+
+.h1 {
+  font-weight: normal;
 }
 
 .rowL {
@@ -823,7 +839,6 @@ button {
         flex-wrap: wrap;
   }
   .recImage {
-    background-color: #e154b0;
     max-width: 80%;
     margin: 10px 0;
   }
@@ -868,7 +883,6 @@ button {
         flex-wrap: wrap;
   }
   .recImage {
-    background-color: #e154b0;
     max-width: 80%;
     margin: 10px 0;
   }
@@ -1018,7 +1032,7 @@ a {
 .instagram {
   font-size: 50px;
   background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

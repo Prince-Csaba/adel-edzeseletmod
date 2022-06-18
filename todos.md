@@ -4,7 +4,13 @@
 
 ### Utolso simitasok:
 
+- etrend fo kepe
+
+- fa ikonok az edzes cardshoz
+
 BS felulirja a cimsor betumeretet 
+
+- terkep reszp
 
 - vertical images on mobile (mainslide)
 

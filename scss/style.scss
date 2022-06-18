@@ -1,83 +1,91 @@
-@import './basics';
-@import './custom';
-@import './nav';
-@import './index';
-@import './etrend+rolam+edzes';
-// @import './videok';            
-@import './recipe';
-@import './footer';
+@import "./basics";
+@import "./custom";
+@import "./nav";
+@import "./index";
+@import "./etrend+rolam+edzes";
+// @import './videok';
+@import "./recipe";
+@import "./footer";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: "Rockwell", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Rockwell", serif;
 
-    font-size: 100%;
-    vertical-align: baseline;
+  font-size: 100%;
+  vertical-align: baseline;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .bgimgw {
-    width: 100vw;
-    height: 75vw;
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
-  }
+  width: 100vw;
+  height: 75vw;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+}
 
 .bgimgh {
-    height: 80vw;
-    max-height: 1200px;
-    /* width: 100%; */
-    background-position: center;
-    /* Center the image */
-    background-repeat: no-repeat;
-    /* Do not repeat the image */
-    background-size: cover;
-    /* Resize the background image to cover the entire container */
+  height: 80vw;
+  max-height: 1200px;
+  /* width: 100%; */
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
 }
-  
-  @media only screen and (max-width: 900px) {
-    .bgimgh {
-      width: 100vw;
-      height: 120vw;
-      background-position: center;
-    }
-  }
 
-  @media only screen and (max-width: 600px) {
-    .bgimgh {
-      width: 100vw;
-      height: 100vw;
-      background-position: center;
-    }
+
+@media only screen and (max-width: 900px) {
+  .bgimgh {
+    width: 100vw;
+    height: 120vw;
+    background-position: center;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .bgimgh {
+    width: 100vw;
+    height: 100vw;
+    background-position: center;
+  }
+}
 
 .socialLinks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
 }
 
 .instagram {
-    font-size: 50px;
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 50px;
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .facebook .fab {
-    font-size: 50px;
-    color: #3b5998;
-    background-color: transparent;
+  font-size: 50px;
+  color: #3b5998;
+  background-color: transparent;
 }
