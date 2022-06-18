@@ -1,6 +1,6 @@
-- text info vagy text idk what kiemelni, reszponzivva tenni
-
 - fooldal kepek elhalvanyitani
+
+- kepek mellett a szovegek rolam
 
 ### Utolso simitasok:
 
@@ -16,6 +16,7 @@ BS felulirja a cimsor betumeretet
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - edzeshez felul kepek
+- text info vagy text idk what kiemelni, reszponzivva tenni
 - erdekel gomb, id, lekuldeni
 - etrend felso szovegek nagy, narancssarga
 - etrend betumeretek a sima kis szovegeknel
