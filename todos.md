@@ -1,19 +1,18 @@
-- kepek mellett a szovegek rolam
+- kepek mellett a szovegek rolam (varunk)
 
 ### Utolso simitasok:
 
-- fa ikonok az edzes cardshoz
+- fa ikonok az edzes cardshoz (ismet varunk)
 
 BS felulirja a cimsor betumeretet 
 
 - reszponzivitas atnezni
 
-- Rolam fo kepe
-
 - képek/all
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - edzeshez felul kepek
+- Rolam fo kepe
 - etrend fo kepe
 - vertical images on mobile (mainslide)
 - terkep reszp
