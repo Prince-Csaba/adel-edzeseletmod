@@ -1,3 +1,5 @@
+- képek/all
+
 - erdekel gomb, id, lekuldeni
 
 - fooldal kepek elhalvanyitani
@@ -15,6 +17,8 @@
 - reszponzivitas atnezni
 
 ### Utolso simitasok:
+
+BS felulirja a cimsor betumeretet 
 
 Rolam fo kepe
 
