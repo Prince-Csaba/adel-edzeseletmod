@@ -1,4 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic);
+.alert {
+  border: 1px solid rgba(198, 83, 140, 0.88);
+}
+
+button {
+  text-transform: uppercase;
+}
+
 .body {
   min-width: 320px;
   font-size: 16px;
@@ -15,6 +23,11 @@
   padding-left: 0;
   margin-bottom: 30px;
   font-family: 'Lato';
+  background-color: #fae6b1;
+}
+
+.pricing li {
+  color: black;
 }
 
 .pricing img {

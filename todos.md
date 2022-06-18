@@ -1,5 +1,3 @@
-- képek/all
-
 - erdekel gomb, id, lekuldeni
 
 - fooldal kepek elhalvanyitani
@@ -7,10 +5,6 @@
 - etrend betumeretek a sima kis szovegeknel
 
 - etrend felso szovegek nagy, narancssarga
-
-- edzeshez felul kepek
-
-- kaja felul kepek
 
 - vertical images on mobile (mainslide)
 
@@ -22,7 +16,14 @@ BS felulirja a cimsor betumeretet
 
 Rolam fo kepe
 
+- képek/all
+
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
+<!-- - edzeshez felul kepek
+
+
+
+- kaja felul kepek -->
 <!-- - tarhely -->
 <!-- - receltek lefele nyil cserelni (emoji) -->
 <!-- - etrend tablazat? -->
