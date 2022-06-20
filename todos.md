@@ -1,4 +1,11 @@
+- az uj szemelyi edzes kollazs
+
 - kepek mellett a szovegek rolam (varunk)
+
+- araknal fekete szoveg
+
+rolam
+-Csernak Nagy Adel vagyok dolt, kiemelt
 
 ### Utolso simitasok:
 

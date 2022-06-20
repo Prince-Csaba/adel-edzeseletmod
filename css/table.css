@@ -61,7 +61,8 @@ button {
 
 .pricing span {
   font-size: 12px;
-  color: #999;
+  color: black;
+  /* color: #999; */
   font-weight: normal;
 }
 
@@ -75,7 +76,7 @@ button {
   font-size: 15px;
   font-weight: bold;
   border-radius: 50px;
-  color: #fff;
+  color: #c67200;
   padding: 9px 24px;
   background: #aaa;
   opacity: 1;
@@ -106,20 +107,24 @@ button {
 
 .p-yel big,
 .p-yel h3 {
-  color: #ffbb42;
+  /* color: #ffbb42; */
+  color: black;
 }
 
 .p-yel button {
-  background: #ffbb42;
+  /* background: #ffbb42; */
+  background-color: #ffffe3;
 }
 
 .p-red big,
 .p-red h3 {
-  color: #e13c4c;
+  color: black;
+  /* color: #e13c4c; */
 }
 
 .p-red button {
-  background: #e13c4c;
+  /* background: #e13c4c; */
+  background-color: #ffffe3;
 }
 
 .p-blue big,
