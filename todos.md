@@ -1,9 +1,3 @@
-- az uj szemelyi edzes kollazs
-
-- kepek mellett a szovegek rolam (varunk)
-
-- araknal fekete szoveg
-
 rolam
 -Csernak Nagy Adel vagyok dolt, kiemelt
 
@@ -11,14 +5,17 @@ rolam
 
 - fa ikonok az edzes cardshoz (ismet varunk)
 
-BS felulirja a cimsor betumeretet 
+- BS felulirja a cimsor betumeretet 
 
 - reszponzivitas atnezni
 
-- képek/all
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - edzeshez felul kepek
+- kepek mellett a szovegek rolam (varunk)
+- az uj szemelyi edzes kollazs
+- képek/all
+- araknal fekete szovegß
 - Rolam fo kepe
 - etrend fo kepe
 - vertical images on mobile (mainslide)
