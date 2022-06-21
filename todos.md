@@ -3,15 +3,13 @@ rolam
 
 ### Utolso simitasok:
 
-- fa ikonok az edzes cardshoz (ismet varunk)
-
-- BS felulirja a cimsor betumeretet 
-
 - reszponzivitas atnezni
 
 
 <!-- - privat terem kiemelni az elonyoknel (stilus) -->
 <!-- - edzeshez felul kepek
+- fa ikonok az edzes cardshoz (ismet varunk)
+- BS felulirja a cimsor betumeretet 
 - kepek mellett a szovegek rolam (varunk)
 - az uj szemelyi edzes kollazs
 - képek/all

@@ -291,8 +291,9 @@ button {
 .topnav .title h1 {
   color: black;
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 35px;
   line-height: 1;
+  font-weight: 400;
 }
 
 .topnav .nav {
@@ -439,6 +440,18 @@ button {
   padding: 13px 31px;
   margin-top: 36px;
   font-size: 12px;
+}
+
+#sMainText {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  #sMainText {
+    font-size: 20px;
+    font-weight: bold;
+  }
 }
 
 .mainslide {
@@ -720,6 +733,11 @@ button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-size: 18px;
+}
+
+.cardRow .cards .card i {
+  margin: 10px 0;
 }
 
 @media only screen and (max-width: 900px) {
