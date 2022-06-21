@@ -440,6 +440,7 @@ button {
   padding: 13px 31px;
   margin-top: 36px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 #sMainText {
@@ -843,11 +844,12 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #ffffe3;
 }
 
 .recipeCard button {
   color: #ffa101;
-  background-color: white;
+  background-color: #ffffe3;
 }
 
 .recImage {
@@ -889,6 +891,10 @@ button {
 .visibleCard {
   width: 94%;
   padding: 20px;
+}
+
+.visibleCard h4 {
+  font-size: 2.5vw;
 }
 
 .visibleCard .recImage img {
@@ -943,6 +949,9 @@ button {
   .visibleCard {
     width: 94%;
   }
+  .visibleCard h4 {
+    font-size: 30px;
+  }
   .visibleCard .recImage {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -983,6 +992,9 @@ button {
     white-space: nowrap;
     text-overflow: ellipsis;
     width: 150px;
+  }
+  .visibleCard h4 {
+    font-size: 25px;
   }
   .visibleCard .recImage {
     display: -webkit-box;

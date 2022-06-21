@@ -1,5 +1,3 @@
-rolam
--Csernak Nagy Adel vagyok dolt, kiemelt
 
 ### Utolso simitasok:
 
@@ -13,6 +11,7 @@ rolam
 - kepek mellett a szovegek rolam (varunk)
 - az uj szemelyi edzes kollazs
 - képek/all
+-Csernak Nagy Adel vagyok dolt, kiemelt
 - araknal fekete szovegß
 - Rolam fo kepe
 - etrend fo kepe

@@ -21,10 +21,11 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: $yellow-l;
 
   button {
     color: $orange;
-    background-color: white;
+    background-color: $yellow-l;
   }
 }
 
@@ -62,6 +63,10 @@
 .visibleCard {
   width: 94%;
   padding: 20px;
+
+  h4 {
+    font-size: 2.5vw;
+  }
 
   .recImage {
       img {
@@ -122,6 +127,10 @@
 
   .visibleCard {   
       width: 94%;
+
+      h4 {
+        font-size: 30px;
+      }
       
       .recImage {
           display: flex;
@@ -168,6 +177,11 @@
   }
 
   .visibleCard {    
+
+    h4 {
+        font-size: 25px;
+      }
+
       .recImage {
           display: flex;
           align-items: center;
