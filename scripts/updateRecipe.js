@@ -8,12 +8,17 @@ function pageLoad() {
   let rBody = document.getElementById("recipeBody");
   console.log(rBody);
   for (let recipe of recipes) {
+    let ing = recipe.ingredients;
+    console.log(ing);
+    let recArr = ing.split(",");
+    console.log(recArr);
     console.log(recipe.ingredients);
     let ingredientsList = [];
-    for (let i = 0; i < recipe.ingredients.length; i++) {
+    for (let i = 0; i < recArr.length; i++) {
       console.log(i);
-      ingredientsList += `<li>${recipe.ingredients[i]}</li>`;
-    }
+      ingredientsList += `<li>${recArr[i]}</li>`;
+    }      
+
     console.log(ingredientsList);
     let elem = document.createElement("div");
     elem.classList.add("recipeCard");
