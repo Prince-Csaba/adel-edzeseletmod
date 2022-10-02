@@ -42,7 +42,7 @@ function pageLoad() {
     </p>
     </div>`;
     elem.innerHTML += `<button><i class="fas fa-angle-down fa-3x"></i></button>`;
-
+    elem.addEventListener("click", recVisible);
     rBody.appendChild(elem);
   }
 
@@ -54,11 +54,11 @@ function pageLoad() {
     element.setAttribute("onclick", recVisible);
     console.log(element);
   }
-
+*/
   function recVisible() {
     console.log("Visible");
     this.classList.toggle("visibleCard");
-  } */
+  }
 }
 window.addEventListener("load", pageLoad);
 
