@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <!-- Bootstrap CSS -->
+    <link
+      async
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- Font awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/766f2d985c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+    />
+
+    <!-- Local CSS -->
+    <link href="./css/style.css" rel="stylesheet" />
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <title>Receptek - SunRise Fitness</title>
+  </head>
+
+  <body>
+    <nav class="topnav">
+      <div class="title">
+        <a href="./index.html" style="text-decoration: none">
+          <h1>SunRise Fitness</h1>
+        </a>
+      </div>
+      <div class="nav">
+        <a class="navitem" href="./etrend.html"
+          >Életmód & <br />
+          Táplálkozási tanácsadás</a
+        >
+        <a class="navitem" href="./edzes.html">Személyi edzés</a>
+        <a class="navitem" href="./receptek.html">Receptek</a>
+        <a class="navitem" href="./rolam.html">Rólam</a>
+        <a class="navitem" href="./kapcsolat.html">Kapcsolat</a>
+        <!-- <a class="navitem" href="./videok.html">Edzés videók</a> -->
+        <!-- <a class="navitem" href="./arak.html">Árak</a> -->
+      </div>
+      <div class="hamburger" id="mobileNav">
+        <div class="h"></div>
+        <div class="h"></div>
+        <div class="h"></div>
+      </div>
+      <div class="movileNav" id="mobileNavBar">
+        <div class="navbarMobile">
+          <a class="navitem" href="./etrend.html"
+            >Életmód & <br />
+            Táplálkozási tanácsadás</a
+          >
+          <a class="navitem" href="./edzes.html">Személyi edzés</a>
+          <a class="navitem" href="./receptek.html">Receptek</a>
+          <a class="navitem" href="./rolam.html">Rólam</a>
+          <a class="navitem" href="./kapcsolat.html">Kapcsolat</a>
+          <!-- <a class="navitem" href="./videok.html">Edzés videók</a> -->
+          <!-- <a class="navitem" href="./arak.html">Árak</a> -->
+        </div>
+      </div>
+    </nav>
+    <div class="sTitle p-36">
+      <img src="./img/logom.webp" class="logo" alt="logo" />
+      <h1 class="textOrange">Kedves Érdeklődő!</h1>
+      <p class="mb-0 textOrange tCenter" style="font-size: 1.5rem">
+        Azért, hogy mindent egy helyen megtalálj és ne kelljen keresned, hogy
+        hol tudod velem felvenni a kapcsolatot, itt minden elérhetőségemet
+        megtalálod! :)
+      </p>
+    </div>
+
+    <div class="cardRow">
+      <div class="cards">
+        <div class="card p-36 text-center bgYellow">
+          <a href="https://www.instagram.com/sunrisefitness2022/">
+            <span class="instagram flex-centered">
+              <i class="fab fa-instagram"></i>
+            </span>
+          </a>
+          <h4>@sunrisefitness</h4>
+          <p>Online kérdőív kitöltése után kiértékelem a jelenlegi állapotod</p>
+        </div>
+        <div class="card p-36 text-center bgYellowL">
+          <a href="https://www.facebook.com/fitnessadel">
+            <span class="facebook flex-centered">
+              <i class="fab fa-facebook-square"></i>
+            </span>
+          </a>
+          <h4>SunRise Fitness</h4>
+          <p>3 napos saját étel - és ital fogyasztásod nyomon követése</p>
+        </div>
+        <div class="card p-36 text-center bgYellow">
+          <i class="fa-solid fa-3x fa-envelope"></i>
+          <h4>sunrisefitness2022@gmail.com</h4>
+          <p>
+            Fogyásra, lelki állapot javulásra, izomtömeg növelésre, megfelelő
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="sTitle flex-centered">
+        <img src="./img/logom.webp" class="logo" alt="logo" />
+        <h2 class="mb-0 textOrange">
+          Az edzések helyszíne: <br />
+          Westfit Studio- Privát Fitness Terem <br />
+        </h2>
+        <h3 class="textOrange">1064 Budapest, Podmaniczky utca 57.</h3>
+        <h3 class="textOrange">Időpont: Előre egyeztetett időpontokban!</h3>
+      </div>
+      <div class="carouseldiv">
+        <div class="carouselsize">
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./img/terem1.webp"
+                  class="d-block w-100"
+                  alt="edzőterem"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/terem2.webp"
+                  class="d-block w-100"
+                  alt="edzőterem"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/terem3.webp"
+                  class="d-block w-100"
+                  alt="edzőterem"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="whitespace"></div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10779.48281233773!2d19.0634813!3d47.5119092!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3f8a0307a0c8a956!2sWestfit%20studio!5e0!3m2!1shu!2shu!4v1655323188889!5m2!1shu!2shu"
+          width="600"
+          height="600"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <div class="whitespace"></div>
+
+      <div class="bgYellowL p-72 d-flex flex-column align-content-center">
+        <h3 class="tCenter">Miért jó privát fitness teremben edzened?</h3>
+        <ul class="mx-auto" style="list-style-type: '✔️ '">
+          <li>
+            Egyszerre egy időben csak Te és én, az edződ tartózkodunk, így nem
+            kell feszengened, hogy ki néz téged akár a teremben, akár az
+            öltözőben.
+          </li>
+          <li>
+            Minden kiseszköz és néhány nagyobb eszköz is megtalálható, hogy
+            minden edzésed változatos legyen.
+          </li>
+          <li>
+            Minden kiseszköz és néhány nagyobb eszköz is megtalálható, hogy
+            minden edzésed változatos legyen.
+          </li>
+          <li>Mindig rend és tisztaság van.</li>
+          <li>
+            Nem kell várnod az eszközökre, hiszen minden a rendelkezésedre áll
+            az edzésed folyamán.
+          </li>
+          <li>
+            A zuhanyzóban sem kell tolongani egymás mellett, hiszen külön
+            fürdőszoba áll a rendelkezésedre és a törülközőt sem kell magaddal
+            hoznod, hiszen azt is kapsz nálunk.
+          </li>
+          <li>
+            Az edzésed mellé ajándék Bcaa folyadékot és fehérje shaket is
+            fogyaszthatsz.
+          </li>
+          <li>
+            Mindig mosolygósan várlak a közös munkára és lelkesítelek a
+            feladatok során.
+          </li>
+          <li>
+            Csak Te vagy a középpontban, nincs telefonnyomkodás és másokkal való
+            elbeszélgetés a személyi edzés folyamán, az az óra csak Rólad szól!
+          </li>
+          <li>Igazi Énidőben lehet részed :)</li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="whitespace"></div>
+
+    <footer class="sFooter p-72 flex-centered">
+      <img src="./img/logom.webp" class="logo" alt="logo" />
+      <div class="footerNav">
+        <a class="navitem" href="./etrend.html"
+          >Életmód & <br />
+          Táplálkozási tanácsadás</a
+        >
+        <a class="navitem" href="./edzes.html">Személyi edzés</a>
+        <a class="navitem" href="./receptek.html">Receptek</a>
+        <a class="navitem" href="./rolam.html">Rólam</a>
+        <!--       <a class="navitem" href="./videok.html">Edzés videók</a>
+        <a class="navitem" href="./arak.html">Árak</a> -->
+      </div>
+      <div class="socialLinks mt-20">
+        <a href="https://www.instagram.com/sunrisefitness2022/">
+          <span class="instagram flex-centered">
+            <i class="fab fa-instagram"></i>
+          </span>
+        </a>
+        <a href="https://www.facebook.com/fitnessadel">
+          <span class="facebook flex-centered">
+            <i class="fab fa-facebook-square"></i>
+          </span>
+        </a>
+      </div>
+    </footer>
+
+    <script async type="text/javascript" src="./scripts/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
